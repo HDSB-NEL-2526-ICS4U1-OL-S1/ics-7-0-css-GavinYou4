@@ -1,21 +1,45 @@
 /* Example google font import */
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 /* Target the title element and apply the following styles: */
 
 #title {
-  background-color: blue;
-  color: #ff0062;
+  background-color: rgb(140, 140, 207);
+  color: hsl(337, 57%, 56%);
   padding: 15px;
   margin: 50px;
 
   border-style: solid;  
-  border-color: #000000;
-  border-radius: 50px;
+  border-color: #06c1f0;
+  border-radius: 10px;
 
-  font-family: 'Lobster', cursive;
+  font-family: 'Dancing Script', cursive;
   font-size: 50px; 
-  text-align: center;
+  text-align: right;
+}
+
+h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  text-align: left;
+  margin: 10px 0;
 }
 
 
+#intro {
+  background-color: #1c81da;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: left;
+}
+
+#button {
+  margin: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #06c1f0;
+  color: white;
+  cursor: pointer;
+}
